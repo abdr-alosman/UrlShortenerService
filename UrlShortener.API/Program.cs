@@ -12,7 +12,9 @@ builder.Services.AddDbContext<MainDbContext>(opt =>
 {
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddScoped<IUrlShortenerService, UrlShortenerService>();
 
 builder.Services.AddControllers();
