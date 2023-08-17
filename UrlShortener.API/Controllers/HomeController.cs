@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using UrlShortener.Application.src.UrlShortener;
+using UrlShortener.Abstractions.src.UrlShortener;
 using UrlShortener.Abstractions.src.UrlShortener.Contracts;
 using UrlShortener.API.Models;
 

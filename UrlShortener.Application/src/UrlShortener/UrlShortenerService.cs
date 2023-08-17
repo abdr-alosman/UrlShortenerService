@@ -1,11 +1,11 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
-using UrlShortener.Application.src.UrlShortener;
+using UrlShortener.Abstractions.src.UrlShortener;
 using UrlShortener.Abstractions.src.UrlShortener.Contracts;
 using UrlShortener.Domain.src;
 using UrlShortener.Persistence.src.Contexts;
 
-namespace UrlShortener.Abstractions.src.UrlShortener
+namespace UrlShortener.Application.src.UrlShortener
 {
     public class UrlShortenerService : IUrlShortenerService
     {

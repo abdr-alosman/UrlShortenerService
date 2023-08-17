@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{62D98013-57BB-4D91-BCDB-F370CB2270D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Application", "UrlShortener.Application\UrlShortener.Application.csproj", "{77D8ECE2-B6E9-4209-B8B9-F39C6DE7323E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Application", "UrlShortener.Application\UrlShortener.Application.csproj", "{77D8ECE2-B6E9-4209-B8B9-F39C6DE7323E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Abstractions", "UrlShortener.Abstractions\UrlShortener.Abstractions.csproj", "{13007ABE-31E8-48C7-A2EB-B493C8792AA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Abstractions", "UrlShortener.Abstractions\UrlShortener.Abstractions.csproj", "{13007ABE-31E8-48C7-A2EB-B493C8792AA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Domain", "UrlShortener.Domain\UrlShortener.Domain.csproj", "{24F33530-6013-496F-B023-4204D9346686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Domain", "UrlShortener.Domain\UrlShortener.Domain.csproj", "{24F33530-6013-496F-B023-4204D9346686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Persistence", "UrlShortener.Persistence\UrlShortener.Persistence.csproj", "{2BB0D744-E7A9-4A7C-B58C-98A6319D398D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Persistence", "UrlShortener.Persistence\UrlShortener.Persistence.csproj", "{2BB0D744-E7A9-4A7C-B58C-98A6319D398D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.API", "UrlShortener.API\UrlShortener.API.csproj", "{136D772C-376D-4502-A327-FC23EF07A1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.API", "UrlShortener.API\UrlShortener.API.csproj", "{136D772C-376D-4502-A327-FC23EF07A1CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
