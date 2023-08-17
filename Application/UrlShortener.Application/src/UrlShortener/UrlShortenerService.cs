@@ -17,7 +17,7 @@ namespace UrlShortener.Application.src.UrlShortener
             _db = db;
         }
 
-        public async Task<string> GetByPath(string path)
+        public async Task<string> GetByPathAsync(string path)
         {
             var usrlMatch = await _db.UrlManagement.FirstOrDefaultAsync(x => x.ShortUrl.Trim() == path.Trim());
 

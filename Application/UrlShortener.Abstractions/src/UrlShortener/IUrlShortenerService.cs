@@ -8,6 +8,6 @@ namespace UrlShortener.Abstractions.src.UrlShortener
 
         Task<CustomUrlResponseModel> SaveCustomeAsync(CustomUrlRequestModel request);
 
-        Task<string> GetByPath(string path);
+        Task<string> GetByPathAsync(string path);
     }
 }

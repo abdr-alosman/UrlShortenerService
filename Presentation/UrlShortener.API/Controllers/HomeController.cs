@@ -65,7 +65,7 @@ namespace UrlShortener.API.Controllers
                 return BadRequest(response.Error("Bad Request!", (int)HttpStatusCode.BadRequest));
             }
 
-            var originalUrl = await _urlShortenerService.GetByPath(path);
+            var originalUrl = await _urlShortenerService.GetByPathAsync(path);
 
             if (originalUrl == null)
             {
